@@ -16,6 +16,7 @@ Simple backend sample project to create a Personal Pokedex for caught Pokemons.
 * Mongoose
 * DotEnv
 * Nodemon
+* Cors
 
 ### Setup
 
@@ -31,7 +32,7 @@ In case you are not able to connect to the database, you will need to install Mo
 
 ## Authors
 
-Contributors names and contact info
+Contributors names
 
 Smaran Harihar
 
