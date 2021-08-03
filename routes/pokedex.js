@@ -59,7 +59,7 @@ router.patch('/:id', getPokemons, async (req, res) => {
 router.delete('/:id', getPokemons, async (req, res) => {
     try {
         await res.pokemon.remove();
-        res.json({message: 'Pokemon set free'});
+        res.json({message: 'Pokemon was set free'});
     } catch(error) {
         res.status(500).json({message: error.message});
     }
